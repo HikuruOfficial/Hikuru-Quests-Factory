@@ -1,0 +1,53 @@
+// The program input for aleo_version/src/main.leo
+[quest_creation_public]
+reward_contract: address = aleo1geqft8epz9kurdv7fqfrwe4l75dw240jvhmt9x7ennftz9gt2q8q86hzjl;
+title: Title = Title { data0: 12345678901234567890123456789012u128, data1: 12345678901234567890123456789012u128, data2: 12345678901234567890123456789012u128, data3: 12345678901234567890123456789012u128 };
+description: Description = Description { data0: 12345678901234567890123456789012u128, data1: 12345678901234567890123456789012u128, data2: 12345678901234567890123456789012u128, data3: 12345678901234567890123456789012u128, data4: 12345678901234567890123456789012u128, data5: 12345678901234567890123456789012u128, data6: 12345678901234567890123456789012u128, data7: 12345678901234567890123456789012u128 };
+quests_reward_type: u128 = 1u128;
+end_time: u128 = 1234567890u128;
+hikuru_qid: u128 = 1u128;
+max_participation: u128 = 100u128;
+participants_count: u128 = 0u128;
+max_reward_per_user: u64 = 1000000u64;
+total_reward_pool: u64 = 1000000u64;
+is_completed: bool = false;
+with_reward: bool = true;
+
+[quest_creation_private]
+reward_contract: address = aleo1geqft8epz9kurdv7fqfrwe4l75dw240jvhmt9x7ennftz9gt2q8q86hzjl;
+title: Title = Title { data0: 12345678901234567890123456789012u128, data1: 12345678901234567890123456789012u128, data2: 12345678901234567890123456789012u128, data3: 12345678901234567890123456789012u128 };
+description: Description = Description { data0: 12345678901234567890123456789012u128, data1: 12345678901234567890123456789012u128, data2: 12345678901234567890123456789012u128, data3: 12345678901234567890123456789012u128, data4: 12345678901234567890123456789012u128, data5: 12345678901234567890123456789012u128, data6: 12345678901234567890123456789012u128, data7: 12345678901234567890123456789012u128 };
+quests_reward_type: u128 = 1u128;
+end_time: u128 = 1234567890u128;
+hikuru_qid: u128 = 1u128;
+max_participation: u128 = 100u128;
+participants_count: u128 = 0u128;
+max_reward_per_user: u64 = 1000000u64;
+total_reward_pool: u64 = 1000000u64;
+is_completed: bool = false;
+with_reward: bool = true;
+payment: credits = credits {
+    microcredits: 1000u64,
+    owner: aleo1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq3ljyzc
+};
+
+
+[select_random_winners]
+quest_id: u64 = 1u64;
+time_now: u128 = 1234567890u128;
+
+
+[acceptance_participation]
+quest_id: u64 = 1u64;
+
+
+[change_owner_status]
+editable_address: address = aleo1geqft8epz9kurdv7fqfrwe4l75dw240jvhmt9x7ennftz9gt2q8q86hzjl;
+new_status: bool = true;
+
+[change_factory_status]
+editable_address: u8 = 1u8;
+new_status: u64 = 1u64;
+
+[change_hikuru_piggy_bank]
+new_piggy_bank: address = aleo1geqft8epz9kurdv7fqfrwe4l75dw240jvhmt9x7ennftz9gt2q8q86hzjl;
