@@ -19,6 +19,7 @@ Welcome to the Hikuru Quests Factory! Our platform is dedicated to connecting cr
 - **Privacy**: Offers both public and private quest creation methods to cater to different privacy needs.
 
 ## How It Works
+![image](https://github.com/HikuruOfficial/Hikuru-Quests-Factory/assets/132744928/95d03b23-9cb0-4bfb-9675-835990da2d4a)
 
 ### For Quest Creators
 
