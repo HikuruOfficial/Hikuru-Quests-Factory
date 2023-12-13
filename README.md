@@ -21,6 +21,32 @@ Welcome to the Hikuru Quests Factory! Our platform is dedicated to connecting cr
 ## How It Works
 ![image](https://github.com/HikuruOfficial/Hikuru-Quests-Factory/assets/132744928/95d03b23-9cb0-4bfb-9675-835990da2d4a)
 
+
+## Smart Contract Methods
+### Public Methods
+- `quest_creation_public`: Creates a public quest.
+- `quest_creation_private`: Creates a private quest.
+- `acceptance_participation`: Registers a user's participation in a quest.
+- `select_random_winners`: Randomly selects winners from the participants.
+
+### Administrative Methods
+- `change_owner_status`: Changes the ownership status of an address.
+- `change_factory_status`: Modifies the factory settings.
+- `finish_quest`: Marks a quest as completed.
+
+### Utility Methods
+- `get_participant`: Generates a unique hash for a quest participant.
+- `verify_field`: Verifies a signature field.
+
+## Native Token Transfer
+This contract includes the functionality to transfer Aleo credits as part of the reward system. Ensure that the contract has enough balance to handle rewards distribution.
+
+## Security Considerations
+- Ensure all transactions are properly signed.
+- Validate all inputs to prevent exploits.
+- Be aware of reentrancy and state change issues.
+
+
 ### For Quest Creators
 
 1. **Initialize Factory**: Set up the factory with default parameters and ownership.
